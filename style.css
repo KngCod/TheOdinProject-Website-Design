@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.herobox {
+    background-color: #1f2937;
+    color: white;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    justify-content:flex-end;
+    list-style-type: none;  
+}
+
+.middlepart {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
