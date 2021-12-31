@@ -31,7 +31,8 @@ body {
 .list {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 30px;
+    list-style-type: none;  
 }
 
 .text {
@@ -40,24 +41,21 @@ body {
     flex-direction: column;
 }
 
-.list {
-    display: flex;
-    justify-content:flex-end;
-    list-style-type: none;  
-}
-
 .list, .subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
 .middlepart {
+    display: flex;
     padding-top: 80px;
     padding-bottom: 80px;
+    justify-content: space-between;
 }
-
+ 
 .picture {
-    width: auto;
-    height: auto;
-    background-color: black;
+    background: rgb(145, 140, 141);
+    width: 500px;
+    height: 200px;
+    text-align: center;
 }
